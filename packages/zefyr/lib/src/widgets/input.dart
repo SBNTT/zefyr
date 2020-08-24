@@ -195,7 +195,9 @@ class InputConnectionController implements TextInputClient {
   }
 
   @override
-  void performPrivateCommand(String action, Map<String data) {
+  void performPrivateCommand(String action, Map<String, dynamic> data) {
     // TODO: implement performPrivateCommand
   }
+
+
 }
